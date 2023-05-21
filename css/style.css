@@ -1,0 +1,39 @@
+
+  *{
+    margin: 0;
+  }
+  .colors{
+    /* background-color: rgb(255, 174, 25); */
+    width: 80%;
+    margin:40px auto 0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .color {
+    font-size: 60px;
+    color: white;
+    background: brown;
+    padding: 30px;
+    display: block;
+  }
+  button{
+    position: absolute;
+    bottom: 20px;
+    width: 140px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+  }p{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    transform: rotate(40deg);
+    right: -180px;
+    top: 12px;
+  }
